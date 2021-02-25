@@ -35564,8 +35564,8 @@ Source: www.kingbright.com</description>
 <part name="FB3" library="rcl" deviceset="R-US_" device="R0603" value="180"/>
 <part name="R68" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="R69" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
-<part name="C25" library="rcl" deviceset="C-US" device="C0805" value="100n"/>
-<part name="C26" library="rcl" deviceset="C-US" device="C0805" value="100n"/>
+<part name="C25" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
+<part name="C26" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
 <part name="D5" library="diode" deviceset="DIODE-" device="DO214AC"/>
 <part name="VCC_1" library="supply2" deviceset="VCC" device=""/>
 <part name="R70" library="rcl" deviceset="R-US_" device="R1206" value="10"/>
@@ -35574,8 +35574,8 @@ Source: www.kingbright.com</description>
 <part name="VCC_2" library="supply2" deviceset="VCC" device=""/>
 <part name="R71" library="rcl" deviceset="R-US_" device="R0603" value="15"/>
 <part name="FB2" library="rcl" deviceset="R-US_" device="R0603" value="180"/>
-<part name="C75" library="rcl" deviceset="C-US" device="C0805" value="100n"/>
-<part name="C76" library="rcl" deviceset="C-US" device="C0805" value="100n"/>
+<part name="C75" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
+<part name="C76" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
 <part name="R73" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="R65" library="rcl" deviceset="R-US_" device="R1206" value="15"/>
 <part name="C77" library="resistor" deviceset="C-US" device="C1206" value="22p"/>
@@ -35609,8 +35609,8 @@ Source: www.kingbright.com</description>
 <part name="R85" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="C85" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
 <part name="C86" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
-<part name="C87" library="rcl" deviceset="C-US" device="C0805" value="100n"/>
-<part name="C88" library="rcl" deviceset="C-US" device="C0805" value="100n"/>
+<part name="C87" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
+<part name="C88" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
 <part name="D6" library="diode" deviceset="DIODE-" device="DO214AC"/>
 <part name="R86" library="rcl" deviceset="R-US_" device="R1206" value="10"/>
 <part name="VCC_3" library="supply2" deviceset="VCC" device=""/>
@@ -35618,8 +35618,8 @@ Source: www.kingbright.com</description>
 <part name="FB4" library="rcl" deviceset="R-US_" device="R0603"/>
 <part name="R88" library="rcl" deviceset="R-US_" device="R0603"/>
 <part name="R67" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
-<part name="C89" library="rcl" deviceset="C-US" device="C0805" value="100n"/>
-<part name="C90" library="rcl" deviceset="C-US" device="C0805" value="100n"/>
+<part name="C89" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
+<part name="C90" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
 <part name="R89" library="rcl" deviceset="R-US_" device="R1206" value="15"/>
 <part name="C91" library="resistor" deviceset="C-US" device="C1206" value="22p"/>
 <part name="R90" library="rcl" deviceset="R-US_" device="R1206" value="15"/>
@@ -35633,8 +35633,8 @@ Source: www.kingbright.com</description>
 <part name="C136" library="rcl" deviceset="C-US" device="C1206" value="10u"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="C138" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
-<part name="C139" library="rcl" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C140" library="rcl" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="C139" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C140" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="C141" library="rcl" deviceset="C-US" device="C0805" value="10uF"/>
 <part name="C142" library="rcl" deviceset="C-US" device="C1206" value="22uF"/>
 <part name="RGND" library="rcl" deviceset="R-US_" device="R0603" value="0"/>
@@ -35642,8 +35642,8 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY57" library="supply2" deviceset="DGND" device=""/>
 <part name="P+18" library="supply1" deviceset="VCC" device="" value="+5V"/>
 <part name="C143" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
-<part name="C144" library="rcl" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C145" library="rcl" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="C144" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C145" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="C146" library="rcl" deviceset="C-US" device="C0805" value="10uF"/>
 <part name="C147" library="rcl" deviceset="C-US" device="C1206" value="22uF"/>
 <part name="RGND1" library="rcl" deviceset="R-US_" device="R0603" value="0"/>
@@ -35667,8 +35667,8 @@ Source: www.kingbright.com</description>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="https://www.ozdisan.com/passive-components/capacitors/smt-smd-and-mlcc-capacitors/CL31C102JHHNNNE"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="https://www.ozdisan.com/passive-components/capacitors/smt-smd-and-mlcc-capacitors/CL31C102JHHNNNE"/>
 <part name="U7" library="enko01" deviceset="ACS712" device=""/>
-<part name="C16" library="rcl" deviceset="C-EU" device="C0805"/>
-<part name="C17" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C16" library="rcl" deviceset="C-EU" device="C0603"/>
+<part name="C17" library="rcl" deviceset="C-EU" device="C0603"/>
 <part name="SUPPLY7" library="supply2" deviceset="DGND" device=""/>
 <part name="R19" library="rcl" deviceset="R-EU_" device="R0603"/>
 <part name="R20" library="rcl" deviceset="R-EU_" device="R0603"/>
@@ -35722,10 +35722,10 @@ Source: www.kingbright.com</description>
 <part name="AGND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="Q4" library="transistor-npn" deviceset="BC846*" device="SMD" technology="ALT1" value="1200980569**TRANS SMD NPN MMBTA06 SOT-23 80V 500mA"/>
 <part name="D1" library="diode" deviceset="DIODE-" device="SOD123"/>
-<part name="R36" library="rcl" deviceset="R-EU_" device="R0805"/>
+<part name="R36" library="rcl" deviceset="R-EU_" device="R0603"/>
 <part name="Q6" library="transistor-npn" deviceset="BC846*" device="SMD" technology="ALT1" value="1200980569**TRANS SMD NPN MMBTA06 SOT-23 80V 500mA"/>
 <part name="D2" library="diode" deviceset="DIODE-" device="SOD123"/>
-<part name="R41" library="rcl" deviceset="R-EU_" device="R0805"/>
+<part name="R41" library="rcl" deviceset="R-EU_" device="R0603"/>
 <part name="R32" library="rcl" deviceset="R-EU_" device="0411/12"/>
 <part name="R37" library="rcl" deviceset="R-EU_" device="0411/12"/>
 <part name="R42" library="rcl" deviceset="R-EU_" device="0411/12"/>
@@ -35737,8 +35737,8 @@ Source: www.kingbright.com</description>
 <part name="R60" library="rcl" deviceset="R-EU_" device="R0603"/>
 <part name="+3V22" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY29" library="supply2" deviceset="+5V" device=""/>
-<part name="C72" library="rcl" deviceset="C-EU" device="C0805"/>
-<part name="C73" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C72" library="rcl" deviceset="C-EU" device="C0603"/>
+<part name="C73" library="rcl" deviceset="C-EU" device="C0603"/>
 <part name="SUPPLY61" library="supply2" deviceset="DGND" device=""/>
 <part name="C31" library="rcl" deviceset="CPOL-EU" device="E7.5-18"/>
 <part name="C32" library="rcl" deviceset="CPOL-EU" device="E7.5-18"/>
@@ -35872,8 +35872,8 @@ Source: www.kingbright.com</description>
 <part name="+3V2" library="supply1" deviceset="+3V3" device="" value=""/>
 <part name="SUPPLY8" library="supply2" deviceset="DGND" device=""/>
 <part name="U1" library="enko01" deviceset="ACS712" device=""/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0805"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0603"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0603"/>
 <part name="SUPPLY14" library="supply2" deviceset="DGND" device=""/>
 <part name="R21" library="rcl" deviceset="R-EU_" device="R0603"/>
 <part name="R22" library="rcl" deviceset="R-EU_" device="R0603"/>
