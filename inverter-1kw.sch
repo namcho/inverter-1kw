@@ -32686,8 +32686,8 @@ Source: www.kingbright.com</description>
 <instance part="+3V22" gate="G$1" x="163.83" y="328.93" smashed="yes" rot="R180">
 <attribute name="VALUE" x="166.37" y="334.01" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="SUPPLY29" gate="+5V" x="158.75" y="328.93" smashed="yes" rot="R180">
-<attribute name="VALUE" x="160.655" y="325.755" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY29" gate="+5V" x="158.75" y="330.2" smashed="yes" rot="R180">
+<attribute name="VALUE" x="160.655" y="327.025" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C72" gate="G$1" x="194.31" y="332.74" smashed="yes" rot="R90">
 <attribute name="NAME" x="193.929" y="334.264" size="1.778" layer="95" rot="R90"/>
@@ -33410,7 +33410,7 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="SUPPLY29" gate="+5V" pin="+5V"/>
-<wire x1="158.75" y1="331.47" x2="158.75" y2="337.82" width="0.1524" layer="91"/>
+<wire x1="158.75" y1="332.74" x2="158.75" y2="337.82" width="0.1524" layer="91"/>
 <pinref part="R60" gate="G$1" pin="2"/>
 <wire x1="158.75" y1="337.82" x2="165.1" y2="337.82" width="0.1524" layer="91"/>
 <label x="157.48" y="325.12" size="1.4224" layer="95"/>
