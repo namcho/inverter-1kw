@@ -36228,62 +36228,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="Andromeda">
-<packages>
-<package name="SCREWCONNECTORS(K93-01AH)">
-<pad name="P$1" x="2.96" y="3.39" drill="2.2" shape="octagon"/>
-<pad name="P$2" x="-2.04" y="3.39" drill="2.2" shape="octagon"/>
-<pad name="P$3" x="2.96" y="-3.61" drill="2.2" shape="octagon"/>
-<pad name="P$4" x="-2.04" y="-3.61" drill="2.2" shape="octagon"/>
-<wire x1="5.66" y1="6.09" x2="5.66" y2="-6.33" width="0.1524" layer="21"/>
-<wire x1="5.66" y1="-6.33" x2="-4.74" y2="-6.33" width="0.1524" layer="21"/>
-<wire x1="-4.74" y1="-6.33" x2="-4.74" y2="6.09" width="0.1524" layer="21"/>
-<wire x1="-4.74" y1="6.09" x2="5.66" y2="6.09" width="0.1524" layer="21"/>
-<text x="-5.08" y="7.62" size="1.778" layer="25">&gt;NAME</text>
-<text x="-5.08" y="-8.89" size="1.778" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="SCREWCONNECTORS(K93-01AH)">
-<pin name="1" x="-2.84" y="3.8" length="short" direction="pas"/>
-<pin name="2" x="-2.84" y="1.26" length="short" direction="pas"/>
-<pin name="4" x="-2.94" y="-4.02" visible="pin" length="short" direction="pas"/>
-<pin name="3" x="-2.84" y="-1.28" length="short" direction="pas"/>
-<wire x1="-0.3" y1="4.3" x2="2.2" y2="4.3" width="0.1524" layer="94"/>
-<wire x1="-0.3" y1="4.3" x2="-0.3" y2="3.3" width="0.1524" layer="94"/>
-<wire x1="-0.3" y1="3.3" x2="2.3" y2="3.3" width="0.1524" layer="94"/>
-<wire x1="-0.3" y1="1.8" x2="2.3" y2="1.8" width="0.1524" layer="94"/>
-<wire x1="-0.3" y1="1.8" x2="-0.3" y2="0.7" width="0.1524" layer="94"/>
-<wire x1="-0.3" y1="0.7" x2="2.3" y2="0.7" width="0.1524" layer="94"/>
-<wire x1="-0.3" y1="-0.7" x2="-0.3" y2="-1.9" width="0.1524" layer="94"/>
-<wire x1="-0.3" y1="-1.9" x2="2.3" y2="-1.9" width="0.1524" layer="94"/>
-<wire x1="-0.3" y1="-0.7" x2="2.3" y2="-0.7" width="0.1524" layer="94"/>
-<wire x1="-0.3" y1="-3.4" x2="-0.3" y2="-4.6" width="0.1524" layer="94"/>
-<wire x1="-0.3" y1="-4.6" x2="2.3" y2="-4.6" width="0.1524" layer="94"/>
-<wire x1="-0.3" y1="-3.4" x2="2.3" y2="-3.4" width="0.1524" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SCREWCONNECTORS(K93-01AH)" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="SCREWCONNECTORS(K93-01AH)" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="SCREWCONNECTORS(K93-01AH)">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-<connect gate="G$1" pin="3" pad="P$4"/>
-<connect gate="G$1" pin="4" pad="P$3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -36547,7 +36491,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="C47" library="rcl" library_urn="urn:adsk.eagle:library:27228982" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:27228997/1"/>
 <part name="C48" library="rcl" library_urn="urn:adsk.eagle:library:27228982" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:27228997/1"/>
 <part name="C49" library="rcl" library_urn="urn:adsk.eagle:library:27228982" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:27228997/1" value="22p"/>
-<part name="U$1" library="Andromeda" deviceset="SCREWCONNECTORS(K93-01AH)" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -37522,7 +37465,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="494.284" y="93.091" size="1.778" layer="95"/>
 <attribute name="VALUE" x="494.284" y="88.011" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="290.83" y="337.82" smashed="yes"/>
 </instances>
 <busses>
 </busses>
