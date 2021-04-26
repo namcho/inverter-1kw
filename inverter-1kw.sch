@@ -37166,15 +37166,15 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <attribute name="NAME" x="423.5958" y="-83.566" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="426.6438" y="-83.566" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="X1" gate="-1" x="8.89" y="-39.37" smashed="yes">
-<attribute name="NAME" x="3.81" y="-38.481" size="1.778" layer="95" rot="R180"/>
+<instance part="X1" gate="-1" x="8.89" y="368.3" smashed="yes">
+<attribute name="NAME" x="3.81" y="369.189" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="X1" gate="-2" x="8.89" y="-27.94" smashed="yes">
 <attribute name="NAME" x="3.81" y="-27.051" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X1" gate="-3" x="6.35" y="368.3" smashed="yes">
-<attribute name="NAME" x="1.016" y="369.189" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="0" y="364.49" size="1.778" layer="96"/>
+<instance part="X1" gate="-3" x="10.16" y="-39.37" smashed="yes">
+<attribute name="NAME" x="4.826" y="-38.481" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="3.81" y="-43.18" size="1.778" layer="96"/>
 </instance>
 <instance part="X2" gate="-1" x="815.34" y="224.79" smashed="yes" rot="R180">
 <attribute name="NAME" x="821.944" y="223.901" size="1.778" layer="95"/>
@@ -38971,7 +38971,7 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <net name="VSUPPLY+" class="0">
 <segment>
 <label x="12.7" y="369.57" size="1.4224" layer="95"/>
-<wire x1="11.43" y1="368.3" x2="48.26" y2="368.3" width="0.6096" layer="91"/>
+<wire x1="13.97" y1="368.3" x2="48.26" y2="368.3" width="0.6096" layer="91"/>
 <wire x1="52.07" y1="185.42" x2="52.07" y2="368.3" width="0.6096" layer="91"/>
 <wire x1="52.07" y1="368.3" x2="59.69" y2="368.3" width="0.6096" layer="91"/>
 <wire x1="59.69" y1="368.3" x2="59.69" y2="185.42" width="0.6096" layer="91"/>
@@ -39038,7 +39038,7 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <wire x1="36.83" y1="186.69" x2="36.83" y2="189.23" width="0.1524" layer="91"/>
 <wire x1="36.83" y1="189.23" x2="40.64" y2="189.23" width="0.1524" layer="91"/>
 <junction x="40.64" y="189.23"/>
-<pinref part="X1" gate="-3" pin="1"/>
+<pinref part="X1" gate="-1" pin="1"/>
 </segment>
 </net>
 <net name="N$69" class="0">
@@ -39626,8 +39626,8 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <pinref part="PE1" gate="M" pin="PE"/>
 <wire x1="16.51" y1="-39.37" x2="16.51" y2="-41.91" width="0.1524" layer="91"/>
 <label x="15.24" y="-48.26" size="1.778" layer="95"/>
-<pinref part="X1" gate="-1" pin="1"/>
-<wire x1="13.97" y1="-39.37" x2="16.51" y2="-39.37" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-3" pin="1"/>
+<wire x1="16.51" y1="-39.37" x2="15.24" y2="-39.37" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="PE4" gate="M" pin="PE"/>
