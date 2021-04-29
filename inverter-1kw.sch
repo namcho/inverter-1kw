@@ -39040,6 +39040,18 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <junction x="40.64" y="189.23"/>
 <pinref part="X1" gate="-1" pin="1"/>
 </segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="-107.95" x2="15.24" y2="-107.95" width="0.1524" layer="91"/>
+<pinref part="P+4" gate="1" pin="V+"/>
+<wire x1="15.24" y1="-104.14" x2="15.24" y2="-107.95" width="0.1524" layer="91"/>
+<label x="11.43" y="-100.33" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="285.75" y1="-116.84" x2="285.75" y2="-130.81" width="0.1524" layer="91"/>
+<label x="285.75" y="-130.81" size="1.778" layer="95" rot="R90"/>
+<pinref part="SV2" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="N$69" class="0">
 <segment>
@@ -39500,13 +39512,6 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <pinref part="X3" gate="-12" pin="S"/>
 <wire x1="355.6" y1="-161.29" x2="339.09" y2="-161.29" width="0.1524" layer="91"/>
 <label x="340.36" y="-161.29" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="POWER_IN" class="0">
-<segment>
-<wire x1="285.75" y1="-116.84" x2="285.75" y2="-130.81" width="0.1524" layer="91"/>
-<label x="285.75" y="-130.81" size="1.778" layer="95" rot="R90"/>
-<pinref part="SV2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$54" class="0">
@@ -40061,15 +40066,6 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <pinref part="U6" gate="G$1" pin="GNDA"/>
 <wire x1="416.56" y1="67.31" x2="434.34" y2="67.31" width="0.1524" layer="91"/>
 <label x="425.45" y="68.58" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SUPPLY+" class="0">
-<segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="-107.95" x2="15.24" y2="-107.95" width="0.1524" layer="91"/>
-<pinref part="P+4" gate="1" pin="V+"/>
-<wire x1="15.24" y1="-104.14" x2="15.24" y2="-107.95" width="0.1524" layer="91"/>
-<label x="11.43" y="-100.33" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$40" class="0">
