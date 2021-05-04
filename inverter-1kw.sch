@@ -35967,127 +35967,289 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="con-leotronics" urn="urn:adsk.eagle:library:160">
-<description>&lt;b&gt;Connectors from Leotronics&lt;/b&gt;&lt;p&gt;
-www.leotronics.co.uk&lt;br&gt;</description>
+<library name="Eagle_WR-PHD (rev19a)">
+<description>&lt;BR&gt;Wurth Elektronik - Connectors - Board-to-Board Connectors - WR-PHD &lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2019a, 2019-10-16&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
 <packages>
-<package name="1365-16" urn="urn:adsk.eagle:footprint:7870/1" library_version="2">
-<description>&lt;b&gt;DUAL ROW STRAIGHT HEADER&lt;/b&gt; 1364 SERIES. 1.27mm x 1.27mm. Without Fixing Post. SMT&lt;p&gt;
-Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf</description>
-<wire x1="-4.98" y1="1.63" x2="4.975" y2="1.63" width="0.2032" layer="21"/>
-<wire x1="4.975" y1="1.63" x2="4.975" y2="-1.63" width="0.2032" layer="21"/>
-<wire x1="4.975" y1="-1.63" x2="-4.98" y2="-1.63" width="0.2032" layer="21"/>
-<wire x1="-4.98" y1="-1.63" x2="-4.98" y2="1.63" width="0.2032" layer="21"/>
-<smd name="1" x="-4.445" y="-2.95" dx="0.76" dy="2.4" layer="1"/>
-<smd name="2" x="-4.445" y="2.95" dx="0.76" dy="2.4" layer="1"/>
-<smd name="3" x="-3.175" y="-2.95" dx="0.76" dy="2.4" layer="1"/>
-<smd name="4" x="-3.175" y="2.95" dx="0.76" dy="2.4" layer="1"/>
-<smd name="5" x="-1.905" y="-2.95" dx="0.76" dy="2.4" layer="1"/>
-<smd name="6" x="-1.905" y="2.95" dx="0.76" dy="2.4" layer="1"/>
-<smd name="7" x="-0.635" y="-2.95" dx="0.76" dy="2.4" layer="1"/>
-<smd name="8" x="-0.635" y="2.95" dx="0.76" dy="2.4" layer="1"/>
-<smd name="9" x="0.635" y="-2.95" dx="0.76" dy="2.4" layer="1"/>
-<smd name="10" x="0.635" y="2.95" dx="0.76" dy="2.4" layer="1"/>
-<smd name="11" x="1.905" y="-2.95" dx="0.76" dy="2.4" layer="1"/>
-<smd name="12" x="1.905" y="2.95" dx="0.76" dy="2.4" layer="1"/>
-<smd name="13" x="3.175" y="-2.95" dx="0.76" dy="2.4" layer="1"/>
-<smd name="14" x="3.175" y="2.95" dx="0.76" dy="2.4" layer="1"/>
-<smd name="15" x="4.445" y="-2.95" dx="0.76" dy="2.4" layer="1"/>
-<smd name="16" x="4.445" y="2.95" dx="0.76" dy="2.4" layer="1"/>
-<text x="-5.715" y="-3.175" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="6.985" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-4.645" y1="1.725" x2="-4.245" y2="2.75" layer="51"/>
-<rectangle x1="-4.645" y1="-2.75" x2="-4.245" y2="-1.725" layer="51" rot="R180"/>
-<rectangle x1="-3.375" y1="1.725" x2="-2.975" y2="2.75" layer="51"/>
-<rectangle x1="-3.375" y1="-2.75" x2="-2.975" y2="-1.725" layer="51" rot="R180"/>
-<rectangle x1="-2.105" y1="1.725" x2="-1.705" y2="2.75" layer="51"/>
-<rectangle x1="-2.105" y1="-2.75" x2="-1.705" y2="-1.725" layer="51" rot="R180"/>
-<rectangle x1="-0.835" y1="1.725" x2="-0.435" y2="2.75" layer="51"/>
-<rectangle x1="-0.835" y1="-2.75" x2="-0.435" y2="-1.725" layer="51" rot="R180"/>
-<rectangle x1="0.435" y1="1.725" x2="0.835" y2="2.75" layer="51"/>
-<rectangle x1="0.435" y1="-2.75" x2="0.835" y2="-1.725" layer="51" rot="R180"/>
-<rectangle x1="1.705" y1="1.725" x2="2.105" y2="2.75" layer="51"/>
-<rectangle x1="1.705" y1="-2.75" x2="2.105" y2="-1.725" layer="51" rot="R180"/>
-<rectangle x1="2.975" y1="1.725" x2="3.375" y2="2.75" layer="51"/>
-<rectangle x1="2.975" y1="-2.75" x2="3.375" y2="-1.725" layer="51" rot="R180"/>
-<rectangle x1="4.245" y1="1.725" x2="4.645" y2="2.75" layer="51"/>
-<rectangle x1="4.245" y1="-2.75" x2="4.645" y2="-1.725" layer="51" rot="R180"/>
+<package name="62301621021" urn="urn:adsk.eagle:footprint:14805392/1">
+<description>&lt;B&gt;WR-PHD&lt;/B&gt;&lt;BR&gt;1.27 mm SMT Dual Socket Header, H=4.50 mm, 16 Pins&lt;b&gt;</description>
+<smd name="2" x="-4.445" y="2.05" dx="0.74" dy="1.7" layer="1"/>
+<smd name="1" x="-4.445" y="-2.05" dx="0.74" dy="1.7" layer="1"/>
+<smd name="3" x="-3.175" y="-2.05" dx="0.74" dy="1.7" layer="1"/>
+<smd name="4" x="-3.175" y="2.05" dx="0.74" dy="1.7" layer="1"/>
+<smd name="5" x="-1.905" y="-2.05" dx="0.74" dy="1.7" layer="1"/>
+<smd name="6" x="-1.905" y="2.05" dx="0.74" dy="1.7" layer="1"/>
+<smd name="7" x="-0.635" y="-2.05" dx="0.74" dy="1.7" layer="1"/>
+<smd name="8" x="-0.635" y="2.05" dx="0.74" dy="1.7" layer="1"/>
+<smd name="9" x="0.635" y="-2.05" dx="0.74" dy="1.7" layer="1"/>
+<smd name="10" x="0.635" y="2.05" dx="0.74" dy="1.7" layer="1"/>
+<smd name="11" x="1.905" y="-2.05" dx="0.74" dy="1.7" layer="1"/>
+<smd name="12" x="1.905" y="2.05" dx="0.74" dy="1.7" layer="1"/>
+<smd name="13" x="3.175" y="-2.05" dx="0.74" dy="1.7" layer="1"/>
+<smd name="14" x="3.175" y="2.05" dx="0.74" dy="1.7" layer="1"/>
+<smd name="15" x="4.445" y="-2.05" dx="0.74" dy="1.7" layer="1"/>
+<smd name="16" x="4.445" y="2.05" dx="0.74" dy="1.7" layer="1"/>
+<wire x1="5.28" y1="1.55" x2="-5.28" y2="1.55" width="0.1" layer="51"/>
+<wire x1="-5.28" y1="1.55" x2="-5.28" y2="-1.55" width="0.1" layer="51"/>
+<wire x1="-5.28" y1="-1.55" x2="5.28" y2="-1.55" width="0.1" layer="51"/>
+<wire x1="5.28" y1="-1.55" x2="5.28" y2="1.55" width="0.1" layer="51"/>
+<wire x1="-5.19" y1="1.65" x2="-5.38" y2="1.65" width="0.2" layer="21"/>
+<wire x1="-5.38" y1="1.65" x2="-5.38" y2="-1.65" width="0.2" layer="21"/>
+<wire x1="-5.38" y1="-1.65" x2="-5.19" y2="-1.65" width="0.2" layer="21"/>
+<wire x1="5.19" y1="1.65" x2="5.38" y2="1.65" width="0.2" layer="21"/>
+<wire x1="5.38" y1="1.65" x2="5.38" y2="-1.65" width="0.2" layer="21"/>
+<wire x1="5.38" y1="-1.65" x2="5.19" y2="-1.65" width="0.2" layer="21"/>
+<text x="-6.1896" y="0.7575" size="0.8128" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-6.0046" y="-1.1006" size="0.8128" layer="27" align="bottom-right">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-5.58" y="3.1"/>
+<vertex x="5.58" y="3.1"/>
+<vertex x="5.58" y="-3.1"/>
+<vertex x="-5.58" y="-3.1"/>
+</polygon>
 </package>
 </packages>
 <packages3d>
-<package3d name="1365-16" urn="urn:adsk.eagle:package:7964/1" type="box" library_version="2">
-<description>DUAL ROW STRAIGHT HEADER 1364 SERIES. 1.27mm x 1.27mm. Without Fixing Post. SMT
-Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf</description>
+<package3d name="62301621021" urn="urn:adsk.eagle:package:14805896/2" type="model">
+<description>&lt;B&gt;WR-PHD&lt;/B&gt;&lt;BR&gt;1.27 mm SMT Dual Socket Header, H=4.50 mm, 16 Pins&lt;b&gt;</description>
 <packageinstances>
-<packageinstance name="1365-16"/>
+<packageinstance name="62301621021"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="MVAL" urn="urn:adsk.eagle:symbol:7864/1" library_version="2">
-<wire x1="0" y1="0" x2="1.27" y2="0" width="0.6096" layer="94"/>
-<text x="2.54" y="-0.762" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="1.651" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-</symbol>
-<symbol name="M" urn="urn:adsk.eagle:symbol:7865/1" library_version="2">
-<wire x1="0" y1="0" x2="1.27" y2="0" width="0.6096" layer="94"/>
-<text x="2.54" y="-0.762" size="1.778" layer="95">&gt;NAME</text>
-<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<symbol name="8X2SS">
+<description>8X2Row Socket Header SMT</description>
+<pin name="1" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="-7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="3" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="4" x="-5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="5" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="6" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="7" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="8" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="9" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="10" x="2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="11" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="12" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="13" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="14" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="15" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="16" x="10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<text x="-9.96" y="1.078" size="1.016" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="-9.91" y="-1.58" size="1.016" layer="96" align="bottom-right">&gt;VALUE</text>
+<wire x1="-8.89" y1="2.54" x2="11.43" y2="2.54" width="0.254" layer="94"/>
+<wire x1="11.43" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-8.89" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="-2.54" x2="-8.89" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="-0.635" x2="-5.08" y2="-1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="-5.08" y1="-1.27" x2="-5.715" y2="-0.635" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="-6.985" y1="-0.635" x2="-7.62" y2="-1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="-7.62" y1="-1.27" x2="-8.255" y2="-0.635" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="-7.62" y1="-1.27" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="11.43" y1="2.54" x2="11.43" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-8.255" y1="0.635" x2="-7.62" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="-7.62" y1="1.27" x2="-6.985" y2="0.635" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="-5.715" y1="0.635" x2="-5.08" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="-5.08" y1="1.27" x2="-4.445" y2="0.635" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="1.27" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-0.635" x2="-2.54" y2="-1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="-2.54" y1="-1.27" x2="-3.175" y2="-0.635" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="0.635" x2="-2.54" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="-2.54" y1="1.27" x2="-1.905" y2="0.635" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-0.635" x2="0" y2="-1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="-1.27" x2="-0.635" y2="-0.635" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="0.635" x2="0" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="1.27" x2="0.635" y2="0.635" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="3.175" y1="-0.635" x2="2.54" y2="-1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="2.54" y1="-1.27" x2="1.905" y2="-0.635" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.905" y1="0.635" x2="2.54" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="2.54" y1="1.27" x2="3.175" y2="0.635" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.715" y1="-0.635" x2="5.08" y2="-1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="5.08" y1="-1.27" x2="4.445" y2="-0.635" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="5.08" y1="-1.27" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="4.445" y1="0.635" x2="5.08" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="5.08" y1="1.27" x2="5.715" y2="0.635" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="6.985" y1="0.635" x2="7.62" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="7.62" y1="1.27" x2="8.255" y2="0.635" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="7.62" y1="1.27" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="8.255" y1="-0.635" x2="7.62" y2="-1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="7.62" y1="-1.27" x2="6.985" y2="-0.635" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="7.62" y1="-1.27" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="9.525" y1="0.635" x2="10.16" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="10.16" y1="1.27" x2="10.795" y2="0.635" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="10.16" y1="1.27" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.795" y1="-0.635" x2="10.16" y2="-1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="10.16" y1="-1.27" x2="9.525" y2="-0.635" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="10.16" y1="-1.27" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1365-16" urn="urn:adsk.eagle:component:8056/2" prefix="X" library_version="2">
-<description>&lt;b&gt;DUAL ROW STRAIGHT HEADER&lt;/b&gt; 1364 SERIES. 1.27mm x 1.27mm. Without Fixing Post. SMT&lt;p&gt;
-Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf</description>
+<deviceset name="6230XX21021_62301621021" prefix="J" uservalue="yes">
+<description>&lt;b&gt;WR-PHD 1.27 mm SMT Dual Socket Header, H=4.50 mm&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;b&gt;ARTICLE PROPERTIES:&lt;/b&gt;
+&lt;BR&gt;
+&lt;BR&gt;Pins:4;​ 8;​ 10;​ 14;​ 16;​ 20;​ 28
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;KIND PROPERTIES&lt;/B&gt;:
+&lt;BR&gt;
+&lt;BR&gt;Pitch：1.27 mm
+&lt;BR&gt;Quality Class:3 as per CECC 75 301-802
+&lt;BR&gt;Rows：Dual
+&lt;BR&gt;Gender：Socket Header
+&lt;BR&gt;Type：Straight
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES:&lt;/B&gt;
+&lt;BR&gt;
+&lt;BR&gt;Insulator Material :PA9T
+&lt;BR&gt;Insulator Flammability Rating:UL94 V-0
+&lt;BR&gt;Contact Material:Copper Alloy
+&lt;BR&gt;Contact Plating:Gold
+&lt;BR&gt;Contact Type:Stamped
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION&lt;/B&gt;
+&lt;BR&gt;Operating Temperature:-40 up to +105 °C
+&lt;BR&gt;Compliance:Lead free / RoHS
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;ELECTRICAL PROPERTIES:&lt;/B&gt;
+&lt;BR&gt;
+&lt;BR&gt;Rated Current:max.;​ 1 A
+&lt;BR&gt;IR 1:1 A
+&lt;BR&gt;Withstanding Voltage:500 V (AC)
+&lt;BR&gt;Contact Resistance:20 mΩ
+&lt;BR&gt;RISO:1000 MΩ
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;CERTIFICATION&lt;/B&gt;
+&lt;BR&gt;UL Approval:E323964
+&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/B&gt;
+&lt;BR&gt;Packaging:Tube
+&lt;BR&gt;Packaging Unit:197;​ 105;​ 86;​ 62;​ 54;​ 44;​ 31
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o33198v209%20Family_Wr-PDH_623xxx21021.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o33198v209%20Family_Wr-PDH_623xxx21021.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+Details see: &lt;a href="https://katalog.we-online.com/en/em/PHD_1_27_SMT_DUAL_SOCKET_HEADER_6230XX21021"&gt;https://katalog.we-online.com/en/em/PHD_1_27_SMT_DUAL_SOCKET_HEADER_6230XX21021&lt;/a&gt;&lt;p&gt;
+&lt;BR&gt;
+Updated by Yingchun,Shan 2019-10-25
+&lt;BR&gt;
+2019 (C) Würth Elektronik</description>
 <gates>
-<gate name="-1" symbol="MVAL" x="0" y="0" addlevel="always" swaplevel="1"/>
-<gate name="-2" symbol="MVAL" x="30.48" y="0" addlevel="always" swaplevel="1"/>
-<gate name="-3" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
-<gate name="-4" symbol="M" x="30.48" y="-2.54" addlevel="always" swaplevel="1"/>
-<gate name="-5" symbol="M" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
-<gate name="-6" symbol="M" x="30.48" y="-5.08" addlevel="always" swaplevel="1"/>
-<gate name="-7" symbol="M" x="0" y="-7.62" addlevel="always" swaplevel="1"/>
-<gate name="-8" symbol="M" x="30.48" y="-7.62" addlevel="always" swaplevel="1"/>
-<gate name="-9" symbol="M" x="0" y="-10.16" addlevel="always" swaplevel="1"/>
-<gate name="-10" symbol="M" x="30.48" y="-10.16" addlevel="always" swaplevel="1"/>
-<gate name="-11" symbol="M" x="0" y="-12.7" addlevel="always" swaplevel="1"/>
-<gate name="-12" symbol="M" x="30.48" y="-12.7" addlevel="always" swaplevel="1"/>
-<gate name="-13" symbol="M" x="0" y="-15.24" addlevel="always" swaplevel="1"/>
-<gate name="-14" symbol="M" x="30.48" y="-15.24" addlevel="always" swaplevel="1"/>
-<gate name="-15" symbol="M" x="0" y="-17.78" addlevel="always" swaplevel="1"/>
-<gate name="-16" symbol="M" x="30.48" y="-17.78" addlevel="always" swaplevel="1"/>
+<gate name="G$1" symbol="8X2SS" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="1365-16">
+<device name="" package="62301621021">
 <connects>
-<connect gate="-1" pin="S" pad="1"/>
-<connect gate="-10" pin="S" pad="10"/>
-<connect gate="-11" pin="S" pad="11"/>
-<connect gate="-12" pin="S" pad="12"/>
-<connect gate="-13" pin="S" pad="13"/>
-<connect gate="-14" pin="S" pad="14"/>
-<connect gate="-15" pin="S" pad="15"/>
-<connect gate="-16" pin="S" pad="16"/>
-<connect gate="-2" pin="S" pad="2"/>
-<connect gate="-3" pin="S" pad="3"/>
-<connect gate="-4" pin="S" pad="4"/>
-<connect gate="-5" pin="S" pad="5"/>
-<connect gate="-6" pin="S" pad="6"/>
-<connect gate="-7" pin="S" pad="7"/>
-<connect gate="-8" pin="S" pad="8"/>
-<connect gate="-9" pin="S" pad="9"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7964/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14805896/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="DATASHEET-URL" value="https://katalog.we-online.com/em/datasheet/62301621021.pdf" constant="no"/>
+<attribute name="GENDER" value="Socket Header" constant="no"/>
+<attribute name="IR" value="1A" constant="no"/>
+<attribute name="MATES" value="WR-PHD 1.27mm SMT Dual Pin Header,H=3.8mm/SMT Dual Pin Header,H=3.8mm(Reel)/THT Dual Pin Header" constant="no"/>
+<attribute name="PACKAGING" value="Tube" constant="no"/>
+<attribute name="PART-NUMBER" value=" 62301621021 " constant="no"/>
+<attribute name="PINS" value=" 16 " constant="no"/>
+<attribute name="ROWS" value="Dual" constant="no"/>
+<attribute name="TYPE" value="Straight" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36409,7 +36571,7 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <part name="TP32" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1"/>
 <part name="TP33" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1"/>
 <part name="TP34" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1"/>
-<part name="X3" library="con-leotronics" library_urn="urn:adsk.eagle:library:160" deviceset="1365-16" device="" package3d_urn="urn:adsk.eagle:package:7964/1"/>
+<part name="J1" library="Eagle_WR-PHD (rev19a)" deviceset="6230XX21021_62301621021" device="" package3d_urn="urn:adsk.eagle:package:14805896/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -37611,55 +37773,9 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <attribute name="NAME" x="199.39" y="407.67" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="201.93" y="405.13" size="1.778" layer="97"/>
 </instance>
-<instance part="X3" gate="-1" x="327.66" y="-148.59" smashed="yes">
-<attribute name="NAME" x="330.2" y="-149.352" size="1.778" layer="95"/>
-<attribute name="VALUE" x="325.12" y="-146.939" size="1.778" layer="96"/>
-</instance>
-<instance part="X3" gate="-2" x="358.14" y="-148.59" smashed="yes">
-<attribute name="NAME" x="360.68" y="-149.352" size="1.778" layer="95"/>
-<attribute name="VALUE" x="355.6" y="-146.939" size="1.778" layer="96"/>
-</instance>
-<instance part="X3" gate="-3" x="327.66" y="-151.13" smashed="yes">
-<attribute name="NAME" x="330.2" y="-151.892" size="1.778" layer="95"/>
-</instance>
-<instance part="X3" gate="-4" x="358.14" y="-151.13" smashed="yes">
-<attribute name="NAME" x="360.68" y="-151.892" size="1.778" layer="95"/>
-</instance>
-<instance part="X3" gate="-5" x="327.66" y="-153.67" smashed="yes">
-<attribute name="NAME" x="330.2" y="-154.432" size="1.778" layer="95"/>
-</instance>
-<instance part="X3" gate="-6" x="358.14" y="-153.67" smashed="yes">
-<attribute name="NAME" x="360.68" y="-154.432" size="1.778" layer="95"/>
-</instance>
-<instance part="X3" gate="-7" x="327.66" y="-156.21" smashed="yes">
-<attribute name="NAME" x="330.2" y="-156.972" size="1.778" layer="95"/>
-</instance>
-<instance part="X3" gate="-8" x="358.14" y="-156.21" smashed="yes">
-<attribute name="NAME" x="360.68" y="-156.972" size="1.778" layer="95"/>
-</instance>
-<instance part="X3" gate="-9" x="327.66" y="-158.75" smashed="yes">
-<attribute name="NAME" x="330.2" y="-159.512" size="1.778" layer="95"/>
-</instance>
-<instance part="X3" gate="-10" x="358.14" y="-158.75" smashed="yes">
-<attribute name="NAME" x="360.68" y="-159.512" size="1.778" layer="95"/>
-</instance>
-<instance part="X3" gate="-11" x="327.66" y="-161.29" smashed="yes">
-<attribute name="NAME" x="330.2" y="-162.052" size="1.778" layer="95"/>
-</instance>
-<instance part="X3" gate="-12" x="358.14" y="-161.29" smashed="yes">
-<attribute name="NAME" x="360.68" y="-162.052" size="1.778" layer="95"/>
-</instance>
-<instance part="X3" gate="-13" x="327.66" y="-163.83" smashed="yes">
-<attribute name="NAME" x="330.2" y="-164.592" size="1.778" layer="95"/>
-</instance>
-<instance part="X3" gate="-14" x="358.14" y="-163.83" smashed="yes">
-<attribute name="NAME" x="360.68" y="-164.592" size="1.778" layer="95"/>
-</instance>
-<instance part="X3" gate="-15" x="327.66" y="-166.37" smashed="yes">
-<attribute name="NAME" x="330.2" y="-167.132" size="1.778" layer="95"/>
-</instance>
-<instance part="X3" gate="-16" x="358.14" y="-166.37" smashed="yes">
-<attribute name="NAME" x="360.68" y="-167.132" size="1.778" layer="95"/>
+<instance part="J1" gate="G$1" x="332.74" y="-156.21" smashed="yes" rot="R270">
+<attribute name="NAME" x="333.818" y="-146.25" size="1.016" layer="95" rot="R270" align="bottom-right"/>
+<attribute name="VALUE" x="331.16" y="-146.3" size="1.016" layer="96" rot="R270" align="bottom-right"/>
 </instance>
 </instances>
 <busses>
@@ -37963,9 +38079,9 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <label x="433.07" y="-71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-1" pin="S"/>
-<wire x1="325.12" y1="-148.59" x2="311.15" y2="-148.59" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="-148.59" x2="311.15" y2="-148.59" width="0.1524" layer="91"/>
 <label x="312.42" y="-148.59" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -38060,9 +38176,9 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <wire x1="363.22" y1="269.24" x2="363.22" y2="266.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-13" pin="S"/>
-<wire x1="325.12" y1="-163.83" x2="311.15" y2="-163.83" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="-163.83" x2="311.15" y2="-163.83" width="0.1524" layer="91"/>
 <label x="312.42" y="-163.83" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="13"/>
 </segment>
 </net>
 <net name="G12_PWM" class="0">
@@ -38078,9 +38194,9 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <wire x1="368.3" y1="251.46" x2="368.3" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-11" pin="S"/>
-<wire x1="325.12" y1="-161.29" x2="311.15" y2="-161.29" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="-161.29" x2="311.15" y2="-161.29" width="0.1524" layer="91"/>
 <label x="312.42" y="-161.29" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="11"/>
 </segment>
 </net>
 <net name="G13_PWM" class="0">
@@ -38096,9 +38212,9 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <wire x1="363.22" y1="74.93" x2="363.22" y2="72.39" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-7" pin="S"/>
-<wire x1="325.12" y1="-156.21" x2="311.15" y2="-156.21" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="-156.21" x2="311.15" y2="-156.21" width="0.1524" layer="91"/>
 <label x="312.42" y="-156.21" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="G14_PWM" class="0">
@@ -38114,9 +38230,9 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <wire x1="368.3" y1="57.15" x2="368.3" y2="54.61" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-5" pin="S"/>
-<wire x1="325.12" y1="-153.67" x2="311.15" y2="-153.67" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="-153.67" x2="311.15" y2="-153.67" width="0.1524" layer="91"/>
 <label x="312.42" y="-153.67" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="SW_LEG_A" class="0">
@@ -38445,9 +38561,9 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <wire x1="662.94" y1="82.55" x2="668.02" y2="82.55" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-4" pin="S"/>
-<wire x1="355.6" y1="-151.13" x2="339.09" y2="-151.13" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="-151.13" x2="337.82" y2="-151.13" width="0.1524" layer="91"/>
 <label x="340.36" y="-151.13" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -38507,9 +38623,9 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <label x="54.61" y="-144.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-2" pin="S"/>
-<wire x1="355.6" y1="-148.59" x2="339.09" y2="-148.59" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="-148.59" x2="337.82" y2="-148.59" width="0.1524" layer="91"/>
 <label x="340.36" y="-148.59" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -39279,9 +39395,9 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <wire x1="121.92" y1="228.6" x2="124.46" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-16" pin="S"/>
-<wire x1="355.6" y1="-166.37" x2="339.09" y2="-166.37" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="-166.37" x2="337.82" y2="-166.37" width="0.1524" layer="91"/>
 <label x="340.36" y="-166.37" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="16"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -39325,9 +39441,9 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <pinref part="R29" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-10" pin="S"/>
-<wire x1="355.6" y1="-158.75" x2="339.09" y2="-158.75" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="-158.75" x2="337.82" y2="-158.75" width="0.1524" layer="91"/>
 <label x="340.36" y="-158.75" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="10"/>
 </segment>
 </net>
 <net name="VB_SENS" class="0">
@@ -39341,9 +39457,9 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <pinref part="R33" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-6" pin="S"/>
-<wire x1="355.6" y1="-153.67" x2="339.09" y2="-153.67" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="-153.67" x2="337.82" y2="-153.67" width="0.1524" layer="91"/>
 <label x="340.36" y="-153.67" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="IA_SENS" class="0">
@@ -39355,9 +39471,9 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <wire x1="662.94" y1="180.34" x2="668.02" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-8" pin="S"/>
-<wire x1="355.6" y1="-156.21" x2="339.09" y2="-156.21" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="-156.21" x2="337.82" y2="-156.21" width="0.1524" layer="91"/>
 <label x="340.36" y="-156.21" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -39445,9 +39561,9 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <wire x1="182.88" y1="411.48" x2="187.96" y2="411.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-15" pin="S"/>
-<wire x1="325.12" y1="-166.37" x2="311.15" y2="-166.37" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="-166.37" x2="311.15" y2="-166.37" width="0.1524" layer="91"/>
 <label x="312.42" y="-166.37" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="15"/>
 </segment>
 </net>
 <net name="VIN_SENS_DIFF" class="0">
@@ -39463,9 +39579,9 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <wire x1="99.06" y1="-107.95" x2="99.06" y2="-110.49" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-14" pin="S"/>
-<wire x1="355.6" y1="-163.83" x2="339.09" y2="-163.83" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="-163.83" x2="337.82" y2="-163.83" width="0.1524" layer="91"/>
 <label x="340.36" y="-163.83" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="14"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -39509,9 +39625,9 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <wire x1="233.68" y1="-105.41" x2="233.68" y2="-107.95" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-12" pin="S"/>
-<wire x1="355.6" y1="-161.29" x2="339.09" y2="-161.29" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="-161.29" x2="337.82" y2="-161.29" width="0.1524" layer="91"/>
 <label x="340.36" y="-161.29" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="12"/>
 </segment>
 </net>
 <net name="N$54" class="0">
@@ -39604,9 +39720,9 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <label x="364.49" y="261.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-9" pin="S"/>
-<wire x1="325.12" y1="-158.75" x2="311.15" y2="-158.75" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="-158.75" x2="311.15" y2="-158.75" width="0.1524" layer="91"/>
 <label x="312.42" y="-158.75" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="DRV2_EN" class="0">
@@ -39621,9 +39737,9 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1364ing.pdf<
 <label x="364.49" y="67.31" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X3" gate="-3" pin="S"/>
-<wire x1="325.12" y1="-151.13" x2="311.15" y2="-151.13" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="-151.13" x2="311.15" y2="-151.13" width="0.1524" layer="91"/>
 <label x="312.42" y="-151.13" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="PE" class="0">
